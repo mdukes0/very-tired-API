@@ -24,7 +24,7 @@
         })
         .then(data => {
             console.log(data); // Log the API data to the console
-            const appIdeasList = document.getElementById("appIdeas");
+            const appIdeasList = document.getElementById("appIdea");
             data.forEach(idea => {
                 const listItem = document.createElement("li");
                 listItem.textContent = `${idea.appName}: ${idea.description}`; // Updated to use correct property names
@@ -34,6 +34,5 @@
         .catch(error => console.error('Error loading app ideas:', error));
 
     </script>
-
 
 </body>
