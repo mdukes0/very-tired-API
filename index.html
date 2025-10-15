@@ -1,0 +1,38 @@
+<!-- https://mdukes0.github.io/very-tired-API/appIdeas.json -->
+
+<body>
+    <h1>App Ideas</h1>
+
+    <ul>
+        <li></li>
+        <li>Name: Description</li>
+        </li>
+    </ul>
+
+    <ul id="appIdeas">
+        <li></li>
+    </ul>
+
+    <script>
+        fetch("./appIdea.json") // Updated to use a relative path
+
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log(data); // Log the API data to the console
+            const appIdeasList = document.getElementById("appIdeas");
+            data.forEach(idea => {
+                const listItem = document.createElement("li");
+                listItem.textContent = `${idea.appName}: ${idea.description}`; // Updated to use correct property names
+                appIdeasList.appendChild(listItem);
+            });
+        })
+        .catch(error => console.error('Error loading app ideas:', error));
+
+    </script>
+
+</body>
