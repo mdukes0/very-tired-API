@@ -1,0 +1,28 @@
+[
+  {
+    "appName": "TaskFlow",
+    "description": "A task management app that uses AI to prioritize tasks based on deadlines and importance.",
+    "features": ["AI-based task prioritization", "Deadline reminders", "Collaboration tools"]
+  },
+  {
+    "appName": "EcoTrack",
+    "description": "An app to help users track their carbon footprint and suggest eco-friendly alternatives.",
+    "features": ["Carbon footprint calculator", "Eco-friendly tips", "Progress tracking"]
+  },
+  {
+    "appName": "FitFusion",
+    "description": "A fitness app that combines workout routines with meal planning for a holistic health approach.",
+    "features": ["Custom workout plans", "Meal planning", "Progress tracking"]
+  },
+  {
+    "appName": "LearnSphere",
+    "description": "An educational platform that connects learners with experts for one-on-one tutoring sessions.",
+    "features": ["Expert matching", "Live video sessions", "Resource sharing"]
+  },
+  {
+    "appName": "EventEase",
+    "description": "An app to simplify event planning by managing guest lists, RSVPs, and vendor coordination.",
+    "features": ["Guest list management", "RSVP tracking", "Vendor coordination"]
+  }
+]
+
