@@ -1,4 +1,4 @@
-[
+{ "appIdea" : [
   {
     "id": 1,
     "appName": "TaskFlow",
@@ -30,4 +30,4 @@
     "features": ["Guest list management", "RSVP tracking", "Vendor coordination"]
   }
 ]
-
+}
